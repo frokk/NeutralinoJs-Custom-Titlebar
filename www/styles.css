@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+#root {
+    text-align: center;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+#root h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#draggableRegion {
+    display: block;
+    text-align: center;
+    user-select: none;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 20px;
+    cursor: default;
+}
+
+#draggableRegion .windowButtons {
+    user-select: none;
+    float: right;
+}
+
+#draggableRegion .title {
+    user-select: none;
+}
+
+.windowButtons span {
+    display: inline-block;
+    cursor: pointer;
+    width: 1rem;
+    height: 1rem;
+    background-color: #E8E8E8;
+    border-radius: 100%;
+}
+
+.windowButtons span#minimizeBtn {
+    background-color: #eebc3c;
+}
+
+.windowButtons span#maximizeBtn {
+    background-color: #7aca4f;
+}
+
+.windowButtons span#closeBtn {
+    background-color: #df6158;
+}
