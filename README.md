@@ -9,7 +9,9 @@ If you've not already installed `neu` cli then do it using this command `npm ins
 After installing `neu` cli make a new project with this template using this command:
 
 ```bash
-neu create myapp --template DEVLOPRR/NeutralinoJs-Custom-Titlebar
+git clone https://github.com/DEVLOPRR/NeutralinoJs-Custom-Titlebar myapp
+cd myapp
+npx neu update
 ```
 
 And make sure to replace `myapp` in the command with your app name.
